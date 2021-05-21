@@ -1,0 +1,206 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+/*HEADER*/
+.part-header{
+    height: 10%;
+    width: 100%;
+}
+
+.part-header ul{
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+.part-header ul li{
+    margin-left: 1.05em;
+}
+
+.gmail a, .images a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.gmail a:hover, .images a:hover{
+    text-decoration: underline;
+}
+
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps:hover{
+    background-color: rgb(207, 204, 204);
+    border-radius: 50%;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo a img{
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+}
+
+.profile-photo:hover{
+    background-color: rgb(207, 204, 204);
+    border-radius: 50%;
+}
+
+/*MAIN*/
+
+.part-main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part-main .subpart-logo{
+    margin-top: 3em;
+}
+
+.subpart-searchbar{
+    width: 580px;
+    height: 44px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.subpart-searchbar input{
+    width: 500px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: none;
+}
+
+.subpart-searchbar input:focus{
+    outline: none;
+}
+
+.subpart-buttons{
+    margin-top: 2em;
+}
+
+.subpart-buttons button{
+    padding: 9px 14px;
+    margin-left: 8px;
+    background-color: #f8f9fa;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.subpart-buttons button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border-color: #dadce0;
+    cursor: pointer;
+}
+
+.subpart-buttons button:focus{
+    border-color: #4285f4;
+}
+
+.subpart-languages{
+    margin-top: 2em;
+}
+
+.subpart-languages a{
+    text-decoration: none;
+}
+
+.subpart-languages a:hover{
+    text-decoration: underline;
+}
+
+/*FOOTER*/
+
+.part-footer{
+    height: 14%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: rgb(145, 144, 144);
+}
+
+.top-footer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.top-footer span{
+    margin-left: 2em;
+}
+
+.bot-footer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bot-footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bot-footer a{
+    text-decoration: none;
+    color: rgb(145, 144, 144);
+}
+
+.bot-footer a:hover{
+    text-decoration: underline;
+}
+
+.left-footer{
+    width: 50%;
+    display: flex;
+    
+}
+
+.left-footer li{
+    margin-left: 2em;
+}
+
+.right-footer{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-footer li{
+    margin-right: 2em;
+}
